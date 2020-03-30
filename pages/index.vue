@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-    HOME
+  <div class="section">
+    <div class="container is-fluid">
+      HOME
+    </div>
   </div>
 </template>
 
