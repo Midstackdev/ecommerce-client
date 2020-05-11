@@ -8,14 +8,15 @@
       <tr>
         <td></td>
         <td></td>
-        <td>
-          <p class="has-text-weight-bold">Subtotal</p>
+        <td class="has-text-weight-bold">
+          Subtotal
         </td>
         <td>
           {{ subtotal }}
         </td>
         <td></td>
       </tr>
+      <slot name="rows" />
     </tbody>
   </table>
 </template>
