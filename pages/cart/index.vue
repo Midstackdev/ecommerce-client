@@ -35,6 +35,10 @@
       CartOverview
     },
 
+    middleware: [
+      'redirectIfGuest'
+    ],
+
     computed: {
       ...mapGetters({
         empty: 'cart/empty',
