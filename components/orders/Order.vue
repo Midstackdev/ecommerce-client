@@ -34,11 +34,13 @@
 <script>
 	import OrderStatusPending from '@/components/orders/statuses/OrderStatus-pending'
 	import OrderStatusPaymentFailed from '@/components/orders/statuses/OrderStatus-payment_failed'
+	import OrderStatusProcesssing from '@/components/orders/statuses/OrderStatus-processing'
 
 	export default {
 		components:{
 			'pending': OrderStatusPending,
 			'payment_failed': OrderStatusPaymentFailed,
+			'processing': OrderStatusProcesssing,
 		},
 
 		props: {
